@@ -30,7 +30,7 @@
       </script>
     
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="200">
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="200" onload="document.feedback_Form.reset();">
   
 
   <div class="site-wrap">
@@ -58,8 +58,8 @@
         <li><a href="#section-contact" class="nav-link">Contact</a></li>
       </ul>
       <ul class="social js-clone-nav">
-        <li><button style="border:1px solid black; background-color:cyan;" onclick="facebook_link()"><span class="icon-facebook"></span></button></li>
-        <li><button style="border:1px solid black; background-color: cyan;" onclick="instagram_link()"><span class="icon-instagram"></span></button></li>
+        <li><button style="border:2px solid black; background-color:yellow;" onclick="facebook_link()"><span class="icon-facebook"></span></button></li>
+        <li><button style="border:2px solid black; background-color: yellow;" onclick="instagram_link()"><span class="icon-instagram"></span></button></li>
       </ul>
     </div>
   </header> 
@@ -121,7 +121,7 @@
           <a href="images/original/image5.jpg" class="d-block photo-item" data-fancybox="gallery">
             <img src="images/image5.jpg" alt="Image" class="img-fluid">
             <div class="photo-text-more">
-              <span class="icon"><br>"the attempt to combine wisdom and power has only rarely been successful and then only for a short while."</br><br>_ Albert Einstein</br></span>
+              <span class="icon"><br>"if you tell the truth you don’t have to remember anything"</br><br>_ Mark Twain</br></span>
             </div>
           </a>
         </div>
@@ -130,7 +130,7 @@
               <a href="images/original/image6.jpg" class="d-block photo-item" data-fancybox="gallery">
               <img src="images/image6.jpg" alt="Image" class="img-fluid">
               <div class="photo-text-more">
-              <span class="icon"><br>"to shine your brightest light is to be who you truly are"</br><br>_ Roy T. Bennett</br></span>
+              <span class="icon"><br>"whatever you do, do it well"</br><br>_ Walt Disney</br></span>
             </div>
           </a>
         </div>
@@ -190,7 +190,7 @@
             <div class="col-md-8">
               <h2 class="text-white mb-5 heading">Contact</h2>
 
-              <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeZi71zfgMu8cf6dF-WK3J66zivVW_OmtQTCUsBpZet8tsC7A/formResponse" target="_self" method="POST">
+              <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeZi71zfgMu8cf6dF-WK3J66zivVW_OmtQTCUsBpZet8tsC7A/formResponse" target="_self" method="POST" name="feedback_Form">
 
                     <div class="row form-group">
                       <div class="col-md-6 mb-3 mb-md-0">
@@ -222,7 +222,7 @@
                     <div class="row form-group mb-5">
                       <div class="col-md-12">
                         <label class="text-white" for="message">Message</label> 
-                        <textarea name="message" id="message" cols="30" rows="7" name="entry.1213151595" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                        <textarea name="entry.531990379" cols="30" rows="7" class="form-control" placeholder="Your message goes here...."></textarea>
                       </div>
                     </div>
                   
